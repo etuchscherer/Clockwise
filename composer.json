@@ -1,0 +1,22 @@
+{
+    "name":             "marvel/xmen",
+    "description":      "Mutants saving the world for people who hate them.",
+    "keywords":         ["mutant", "superhero", "bald", "guy"],
+    "homepage":         "http://marvel.com/xmen",
+    "time":             "1963-09-01",
+    "license":          "MIT",
+    "authors": [
+        {
+            "name":         "Stan Lee",
+            "email":        "stan@marvel.com",
+            "homepage":     "http://marvel.com",
+            "role":         "Genius"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+	  "classmap": ["src/", "tests/"]
+    }
+}
